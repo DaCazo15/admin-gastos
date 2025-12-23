@@ -53,4 +53,9 @@
         background-color: var(--gris-claro);
         text-align: center;
     }
+    @media (max-width: 768px){
+        .filtros label{
+            font-size: 1.5rem;
+        }
+    }
 </style>

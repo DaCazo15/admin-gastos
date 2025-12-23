@@ -116,13 +116,21 @@
         width: 100%;
     }
     .contenedor-presupuesto p{
-        font-size: 2.4rem;
-        text-align: center;
+        font-size: 1.7rem;
+        text-align: left;
         color: var(--gris-oscuro);
     }
-    @media (min-width: 768px){
+    
+    /* @media (min-width: 768px){
+        .contenedor-presupuesto p{
+            font-size: 3.4rem;
+        }
+        
+    } */
+    @media (min-width: 380px){
         .contenedor-presupuesto p{
             text-align: left;
+            font-size: 2.4rem;
         }
     }
     .contenedor-presupuesto span{

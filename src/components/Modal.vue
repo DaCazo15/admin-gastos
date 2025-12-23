@@ -280,4 +280,32 @@
         border: solid 2.5px var(--rojo-oscuro);
         transition: 1s ease;
     }
+    @media(max-width: 768px){
+        .modal h1{
+            font-size: 1.7rem;
+        }
+        .formulario{
+            gap: 1rem;
+        }
+        .contenedor-modal{
+            padding: 3rem .2rem;
+            width: 85%;
+        }
+        .campo{
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .campo input{
+            width: 67%;
+        }
+        .campo select{
+            width: 67%;
+        }
+        .btn-borrar{
+            font-size: 1.3rem;
+        }
+        .btn-agregar{
+            font-size: 1.3rem;
+        }
+    }
 </style>

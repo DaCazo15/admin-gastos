@@ -299,4 +299,15 @@
     font-weight: 900;
     color: var(--gris-oscuro);
   }
+  @media (max-width: 768px){
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    .cabecera-gastos{
+      font-size: 1.5rem;
+    }
+  }
 </style>

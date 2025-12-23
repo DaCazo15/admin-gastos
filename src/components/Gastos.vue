@@ -29,9 +29,9 @@
     </div>
 
     <div class="cantidad">
-        <h3>-{{ 
+        <p>-{{ 
             formatearCantidad(value.cantidad) 
-        }}</h3>
+        }}</p>
     </div>
   </div>
 </template>
@@ -68,7 +68,7 @@
     display: flex;
     position: absolute;
     right: 10rem;
-    top: 10rem;
+    top: 5rem;
 
     font-size: 4rem;
     font-weight: 900;
@@ -87,6 +87,24 @@
   .listado-gastos h2{
     color: var(--blanco);
     text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-    font-size: 3.5rem
+    font-size: 3.5rem;
   }   
+  @media (max-width: 768px){
+    .listado-gastos h2{
+      font-size: 2rem;
+    }
+    .listado-gastos h3{
+      font-size: 1rem;
+    }
+    .listado-gastos span{
+      padding: .2rem;
+      font-size: 1rem;
+    }
+    .cantidad{
+      top: 3.4rem;
+      right: 2rem;
+
+      font-size: 2rem;
+    }
+  }
 </style>
