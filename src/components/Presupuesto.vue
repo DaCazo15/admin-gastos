@@ -84,6 +84,7 @@
         color: var(--blanco);
         width: 100%;
         font-weight: bold;
+        border-radius: 1rem;
         transition: background-color 500ms ease;
     }
     .presupuesto input[type="submit"]:hover{
@@ -93,5 +94,8 @@
     .campo {
         display: grid;
         gap: 2rem;;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 </style>

@@ -188,10 +188,10 @@
           :gastos="gastosFiltrados"
           @seleccionar-gasto="seleccionarGasto"
         />
-        </div>
+      </div>
         
-        <div class="crear-gastos">
-          <Boton @click="mostrarModal">+</Boton>
+      <div class="crear-gastos">
+        <Boton @click="mostrarModal">+</Boton>
       </div>
         
       <Modal 
@@ -284,11 +284,6 @@
     position: fixed;
     bottom: 2rem;
     right: 3rem;
-  }
-  .crear-gastos img{
-    width: 5rem;
-    cursor: pointer;
-    transition: width 500ms ease;
   }
   .cabecera-gastos{
     display: flex;

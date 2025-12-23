@@ -28,4 +28,10 @@
         background-color: var(--blanco);
         color: var(--azul-claro);
     }
+    @media (max-width: 768px){
+        .btn{
+            font-size: 2rem;
+            padding: 1rem 1.5rem;
+        }
+    }
 </style>
