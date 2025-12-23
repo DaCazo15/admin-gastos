@@ -142,10 +142,16 @@
         z-index: 100;
         top: 11rem;
         left:13rem;
-        font-size: 5rem;
 
         font-size: 5rem;
         color: var(--azul-claro);
         font-weight: bold;
+    }
+    @media (max-width: 768px){
+        .porcentaje{
+            top: 12rem;
+            left:14rem;
+            font-size: 4rem;
+        }
     }
 </style>
