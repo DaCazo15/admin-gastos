@@ -159,7 +159,7 @@
   >
 
     <header class="">
-      <h1 class="">Planificador de <span>gastos</span></h1>
+      <h1 class="">Control de <span>gastos</span></h1>
       
       <div class="contenedor-header contenedor sombra">
         <Presupuesto 
